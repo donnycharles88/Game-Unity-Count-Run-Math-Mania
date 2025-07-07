@@ -2,6 +2,8 @@
 
 Count Run: Math Mania adalah permainan edukasi berbasis Unity yang menggabungkan mekanika platformer dengan tantangan matematika. Pemain harus melewati rintangan, menjawab soal matematika, dan mencapai garis finish sambil menjaga nyawa. Proyek ini dibuat sebagai bagian dari proyek tim untuk mengembangkan keterampilan pemrograman, desain game, dan kolaborasi.
 
+![Alt Text](image.jpg)
+
 ## Fitur Utama
 - **Menu Utama Interaktif**:
   - Tombol Play, How to Play, Credit, dan Quit dengan animasi DOTween.
@@ -21,16 +23,7 @@ Count Run: Math Mania adalah permainan edukasi berbasis Unity yang menggabungkan
 - **Transisi Scene**:
   - Menggunakan `LoadingSceneManager.cs` untuk memuat scene secara asinkronus.
   - Mendukung transisi dari `MainMenu` ke `Level`/`Hard` ke `Score`.
-
-## Prasyarat
-- **Unity Editor**: Versi 2021.3 LTS atau lebih baru (disarankan).
-- **Dependensi**:
-  - TextMeshPro (termasuk dalam Unity).
-  - DOTween (install via Package Manager: `com.unity.dotween`).
-- **Aset**:
-  - Sprite: `fullHeartSprite`, `emptyHeartSprite`, ikon tombol, dan foto anggota (`LedisPhoto.png`, dll.) di `Assets/Sprites`.
-  - Audio: Musik latar (`MainMenu`, `GameOver`) dan efek suara (`clickSound`, `hoverSound`, dll.) di `Assets/Audio`.
-
+    
 ## Aset yang Digunakan
 Berikut adalah aset pihak ketiga yang digunakan dalam pengembangan game ini:
 
